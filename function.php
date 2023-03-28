@@ -182,5 +182,55 @@ checkFruit($fruits, '사과');
 checkFruit($fruits, '수박');
 checkFruit($fruits, '수박');
 
+$animals = array("Bear", "Leopard", "Tiger", "Cat", "Dog");
+
+// $arrLength = count($animals);
+// echo $arrLength . "\n";
+// for($i = 0; $i < $arrLength; $i++) {
+//     echo $animals[$i]."\n";
+// }
+
+
+function arrLength($array)
+{
+    $arlenght = 0;
+    foreach ($array as $element) {
+        $arlenght++;
+    }
+    return $arlenght;
+}
+
+echo arrLength($animals) . "\n";
+
+function arrLength1($array)
+{
+    return sizeof($array);
+}
+
+echo arrLength1($animals)."\n";
+
+function arrLength2($array)
+{
+    return array_reduce($array, function ($arlenght, $element) {
+        return $arlenght + 1;
+    }, 0);
+}
+
+echo arrLength2($animals)."\n";
+
+// $animals2 = array("Bear", "Leopard", "Tiger", "Cat", "Dog");
+
+// function arrLength2()
+// {
+//     $args = func_get_args();
+//     $count = 0;
+//     for ($i = 0; isset($args[$i]); $i++) {
+//         $count++;
+//     }
+//     return $count;
+// }
+
+// echo arrLength2($animals2);
+
 
 ?>
