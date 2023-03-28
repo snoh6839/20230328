@@ -179,6 +179,8 @@ checkFruit($fruits, '포도');
 checkFruit($fruits, '망고');
 
 checkFruit($fruits, '사과');
+checkFruit($fruits, '수박');
+checkFruit($fruits, '수박');
 
 
 ?>
