@@ -48,7 +48,16 @@ for ($k=0; $k < $rows; $k++) {
     printStars($k);
 }
 
-for ($j=0; $j < $rows;) {
-    printStars($j);
+function printStars2($rows)
+{
+    echo str_repeat('*', $rows) . "\n";
 }
+
+$rows = 5;
+
+for ($k = 1; $k <= $rows; $k++) {
+    printStars2($k);
+}
+
+
 ?>
