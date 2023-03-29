@@ -58,7 +58,7 @@ $rows = 5;
 for ($k = 1; $k <= $rows; $k++) {
     printStars2($k);
 }
-function printStars($rows)
+function printStars3($rows)
 {
     $stars = '';
 
@@ -69,9 +69,9 @@ function printStars($rows)
 }
 
 $rows = 5;
-printStars($rows);
+printStars3($rows);
 
-function printStars($rows)
+function printStars4($rows)
 {
     $i = 1;
     $stars = '';
@@ -84,6 +84,6 @@ function printStars($rows)
 }
 
 $rows = 5;
-printStars($rows);
+printStars4($rows);
 
 ?>
