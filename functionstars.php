@@ -58,6 +58,32 @@ $rows = 5;
 for ($k = 1; $k <= $rows; $k++) {
     printStars2($k);
 }
+function printStars($rows)
+{
+    $stars = '';
 
+    foreach (range(1, $rows) as $i) {
+        $stars .= '*';
+        echo $stars . "\n";
+    }
+}
+
+$rows = 5;
+printStars($rows);
+
+function printStars($rows)
+{
+    $i = 1;
+    $stars = '';
+
+    while ($i <= $rows) {
+        $stars .= '*';
+        echo $stars . "\n";
+        $i++;
+    }
+}
+
+$rows = 5;
+printStars($rows);
 
 ?>
