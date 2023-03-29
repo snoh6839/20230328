@@ -1,23 +1,23 @@
 <?php
 
-function stars($in_num)
-{
-    for ($i=1; $i <= $in_num; $i++) { 
-        for ($j=0; $j < $i; $j++) { 
-            echo "*";
-        }
-        echo "\n";
-    }
-}
+// function stars($in_num)
+// {
+//     for ($i=1; $i <= $in_num; $i++) { 
+//         for ($j=0; $j < $i; $j++) { 
+//             echo "*";
+//         }
+//         echo "\n";
+//     }
+// }
 
 // stars(5);
 
-function stars2($in_num)
-{
-    for ($i = 1; $i <= $in_num; $i++) {
-            echo "*";
-    }
-}
+// function stars2($in_num)
+// {
+//     for ($i = 1; $i <= $in_num; $i++) {
+//             echo "*";
+//     }
+// }
 
 // stars2(4);
 
