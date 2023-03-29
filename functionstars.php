@@ -33,6 +33,8 @@
 
 // stars3(1,2,3,4,5);
 
+//1
+
 
 function printStars($rows)
 {
@@ -44,9 +46,12 @@ function printStars($rows)
 
 $rows = 5;
 
-for ($k=0; $k < $rows; $k++) {
-    printStars($k);
+
+for ($i=0; $i < $rows; $i++) {
+    printStars($i);
 }
+
+//2
 
 function printStars2($rows)
 {
@@ -55,9 +60,12 @@ function printStars2($rows)
 
 $rows = 5;
 
-for ($k = 1; $k <= $rows; $k++) {
-    printStars2($k);
+for ($i = 1; $i <= $rows; $i++) {
+    printStars2($i);
 }
+
+//3
+
 function printStars3($rows)
 {
     $stars = '';
@@ -70,6 +78,8 @@ function printStars3($rows)
 
 $rows = 5;
 printStars3($rows);
+
+//4
 
 function printStars4($rows)
 {
